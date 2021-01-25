@@ -1,11 +1,9 @@
-import * as React from 'react'
-import styles from './styles.module.css'
+import { Text } from './components';
+import Scale from './Scale';
+import MSStyled from './components/Provider';
 
-interface Props {
-  text: string
-  children: any
-}
-
-export const ExampleComponent = ({ text, children }: Props) => {
-  return <div className={styles.test}>Example Component: {text} {children}</div>
-}
+export {
+    Text,
+    Scale,
+};
+export default MSStyled;
