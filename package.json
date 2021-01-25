@@ -1,10 +1,13 @@
 {
   "name": "modular-scale-styled",
   "version": "1.0.0",
-  "description": "...",
-  "author": "divinoborges",
+  "description": "An easy-to-use library for creating meaningful typography",
+  "author": "Divino Borges <divino100rv@gmail.com> (https://github.com/divinoborges)",
   "license": "MIT",
-  "repository": "divinoborges/modular-scale-styled",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divinoborges/modular-scale-styled"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -67,5 +70,11 @@
   "dependencies": {
     "@types/styled-components": "^5.1.7",
     "styled-components": "^5.2.1"
-  }
+  },
+  "homepage": "https://github.com/divinoborges/modular-scale-styled",
+  "keywords": [
+    "react",
+    "typography",
+    "styled"
+  ]
 }
